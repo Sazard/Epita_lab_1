@@ -1,0 +1,27 @@
+html
+{
+    background-size: 100%;
+    
+}
+
+h1
+{
+    font-size: 50px;
+    background-color: red;
+    font-style: italic;
+    text-align: center;
+    color: blue;    
+}
+
+
+
+
+
+
+
+#copy
+{
+    font-size: 10px;
+    color:gray;
+    text-align: right;   
+}
