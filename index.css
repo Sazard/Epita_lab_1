@@ -4,24 +4,31 @@ html
     
 }
 
-h1
+#titlea
 {
+    padding-top : 0px;
     font-size: 50px;
-    background-color: red;
+    background-color: rgb(61, 48, 48);
     font-style: italic;
     text-align: center;
-    color: blue;    
+    color: rgb(143, 143, 145);    
 }
 
 
 
 
+footer
+{
+    font-size: 10px;
+    color: gray;
 
-
+}
+#contact
+{
+    text-align: left;
+}
 
 #copy
 {
-    font-size: 10px;
-    color:gray;
-    text-align: right;   
+    text-align: right; 
 }
