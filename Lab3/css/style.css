@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    /*background-image: linear-gradient(rgb(11,11,55),rgb(120,120,120))*/
+}
+h2{
+    font-family: serif;
+    color: white;
+    margin-top:0;
+    margin-bottom: 0;
+    font-size: 50px;
+    padding: 25px;
+    text-align: center;
+    background-image: url("../image/binary.png");
+}
+
+
+/*Menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+#me{
+  float: left;
+}
+
+#me a {
+  display: block;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-family: 'Oxanium';
+  color: green;
+}
+
+#me a:hover {
+    float:left;
+    color: #ccc;
+    border-top: 5px solid lime;
+    padding: 5px 14px 10px 14px;
+}
+
+/*Menus*/
+
+
+#container{
+    width: 100%;
+}
+#left{
+    background-color: rgb(55,55,55);
+    float:left;
+    width: 15%;
+    height: 300px;
+}
+#middle{
+    font-family: 'Oxanium';
+    background-image: linear-gradient(rgb(120,120,120,0.8),rgb(70,70,70,0.8));
+    float: left;
+    width: 70%;
+    
+}
+.box2{
+    padding-left: 40px;
+}
+#right{
+    background-color: rgb(55,55,55);
+    float: left;
+    width: 15%;
+    background-position: left;
+    height: 300px;
+}
+footer{
+    padding-top: 100%;
+    padding-bottom: 0;
+}
