@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html>
     <header>
-    <title>Question1</title>
+    <title>MyWebPage</title>
         <link rel="stylesheet" href="css/Question1.css">
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
 
     </header>
     <body>
-        <h1>Here are some informations about Ireland</h1>
+        <h1 id="top">Here are some informations about Ireland</h1>
 
         <ul> 
-            <li id="me"><a>Welcome</a></li>
-            <li id="me"><a>Links</a></li> 
-            <li id="me"><a>Contact</a></li> 
+            <li id="me"><a href="#We">Welcome</a></li>
+            <li id="me"><a href="#Wel">Introduction</a></li>
+            <li id="me"><a href="#Li">Links</a></li> 
+            <li id="me"><a href="#Fu">Contact</a></li> 
         </ul>
 
-        <h3>Introduction</h3>
+        <h3 id="We">Welcome</h3>
+        <p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-        <h3>Welcome</h3>
+        <h3 id="Wel">Introduction</h3>
+        <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
 
-        <h3>Links</h3>
+        <h3 id="Li">Links</h3>
 
         
-        <b>Fun</b>
+        <b id="Fu">Fun</b>
         <dl style="list-style-type:none;">
-            <li><a href="www.minecraf.net" target="_blank">Minecraft</a></li>
-            <li><a href="www.youtube.com" target="_blank">Youtube</a></li>
-            <li><a href="www.netflix.com" target="_blank">Netflix</a></li>
-            <li><a href="w18.filmstreaming1.pro" target="_blank">Streaming</a></li>
-            <li><a href="patorjk.com/games/snake/" target="_blank">Snake Game</a></li>
+            <li><a href="www.minecraf.net" target="_blank"><img src="photos/minecraft.jpg" alt=minecraft.fr width=200px height=80px></a></li>
+            <li><a href="www.youtube.com" target="_blank"><img src="photos/youtube.png" alt=youtube.fr width=200px height=80px></a></li>
+            <li><a href="www.netflix.com" target="_blank"><img src="photos/netflix.png" alt=netflix.fr width=200px height=80px></a></li>
+            <li><a href="w18.filmstreaming1.pro" target="_blank"><img src="photos/streaming.jpg" alt=streaming.fr width=200px height=80px></a></li>
+            <li><a href="patorjk.com/games/snake/" target="_blank"><img src="photos/snake.png" alt="snake.fr" height="80px" width=200px></a></li>
         </dl>
-        <b>Ireland</b>
-            <dl style="list-style-type:none;">
+        <b >Ireland</b>
+            <dl id = "Ir" style="list-style-type:none;">
                 <li><a href="www.dorset-college.ie" target="_blank">Dorset College</a></li>
                 <li><a href="english.dorset-college.ie/our-courses" target="_blank">English Courses</a></li>
                 <li><a href="www.ireland.ie" target="_blank">Official website of Ireland</a></li>
                 <li><a href="www.discoverireland.ie" target="_blank">Discover Ireland</a></li>
                 <li><a href="www.transportforireland.ie/" target="_blank">Transport for Ireland</a></li>
             </dl>
-        <b>Searchengines</b>
-            <dl style="list-style-type:none;">
+        <b >Searchengines</b>
+            <dl id="Search" style="list-style-type:none;">
                 <li><a href="www.ecosia.org" target="_blank">Ecosia (usefull searchengine ever)</a></li>
                 <li><a href="www.google.com" target="_blank">Google (get rid ouf your privacy)</a></li>
                 <li><a href="www.yahoo.com" target="_blank">Yahoo</a></li>
@@ -48,7 +54,37 @@
         
         <h3>Contact</h3>
         
+        <form action="/action_page.php">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+            <a href="emailto:nicolas.sutter@epita.fr">Contact par mail</a><br><br>
+          <input type="submit" value="Submit">
+        </form>
         
+        <table class="table">
+            <tr>
+                <td>Name</td><td>John</td>
+            </tr>
+            <tr>
+                <td>Age<td>42</td>
+            </tr>
+            <tr>
+                <td>Country</td><td>Ireland</td>
+            </tr>
 
+        </table>
+        
+        <p><a href="#top">Haut de page</a></p>
+
+        <footer>
+        <p id="contact">contact : nicolas.sutter@epita.fr</p>
+        <p id="copy">copyright 2020 Epita</p>
+        </footer>
+        
+        
+        
     </body>
 </html>
