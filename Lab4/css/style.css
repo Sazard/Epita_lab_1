@@ -1,0 +1,17 @@
+#top{
+    background-image: url(../images/binary.png);
+    height: 150px;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.bg-dark{
+    color: green;
+}
+.col{
+    background-size: 100%;
+}
+#col1{
+    background-color: rgb(50,50,50);
+}
